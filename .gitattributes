@@ -1,0 +1,13 @@
+* text=auto eol=lf
+
+# Package data
+data/patterns/*.tex linguist-generated=true
+data/languages/*.json linguist-generated=true
+
+# Tests
+/tests/ export-ignore
+
+# Dev
+/.gitignore export-ignore
+/.gitattributes export-ignore
+/.editorconfig export-ignore

@@ -1,0 +1,982 @@
+{
+    "en-us": {
+        "syllable_count": {
+            "hyphenation": 4,
+            "banana": 3,
+            "beautiful": 3,
+            "communication": 5,
+            "extraordinary": 6,
+            "strengths": 1,
+            "people": 2,
+            "maybe": 2,
+            "across": 2,
+            "business": 2,
+            "the": 1,
+            "a": 1,
+            "antidisestablishmentarianism": 12,
+            "queue": 2,
+            "rhythm": 2
+        },
+        "split_word": {
+            "hyphenation": [
+                "hy",
+                "phen",
+                "ation"
+            ],
+            "banana": [
+                "ba",
+                "nana"
+            ],
+            "beautiful": [
+                "beau",
+                "ti",
+                "ful"
+            ],
+            "communication": [
+                "com",
+                "mu",
+                "ni",
+                "ca",
+                "tion"
+            ],
+            "extraordinary": [
+                "ex",
+                "tra",
+                "or",
+                "di",
+                "nary"
+            ],
+            "strengths": [
+                "strengths"
+            ],
+            "people": [
+                "peo",
+                "ple"
+            ],
+            "maybe": [
+                "maybe"
+            ],
+            "across": [
+                "across"
+            ],
+            "business": [
+                "busi",
+                "ness"
+            ],
+            "the": [
+                "the"
+            ],
+            "a": [
+                "a"
+            ],
+            "antidisestablishmentarianism": [
+                "an",
+                "tidis",
+                "es",
+                "tab",
+                "lish",
+                "men",
+                "tar",
+                "i",
+                "an",
+                "ism"
+            ],
+            "queue": [
+                "queue"
+            ],
+            "rhythm": [
+                "rhythm"
+            ]
+        },
+        "split_syllables": {
+            "hyphenation": [
+                "hyp",
+                "hen",
+                "ati",
+                "on"
+            ],
+            "banana": [
+                "ba",
+                "na",
+                "na"
+            ],
+            "beautiful": [
+                "bea",
+                "uti",
+                "ful"
+            ],
+            "communication": [
+                "com",
+                "mun",
+                "ica",
+                "ti",
+                "on"
+            ],
+            "extraordinary": [
+                "ext",
+                "ra",
+                "or",
+                "di",
+                "na",
+                "ry"
+            ],
+            "strengths": [
+                "strengths"
+            ],
+            "people": [
+                "peo",
+                "ple"
+            ],
+            "maybe": [
+                "may",
+                "be"
+            ],
+            "across": [
+                "acr",
+                "oss"
+            ],
+            "business": [
+                "busi",
+                "ness"
+            ],
+            "the": [
+                "the"
+            ],
+            "a": [
+                "a"
+            ],
+            "antidisestablishmentarianism": [
+                "ant",
+                "idi",
+                "ses",
+                "tab",
+                "li",
+                "sh",
+                "me",
+                "nt",
+                "ar",
+                "ia",
+                "ni",
+                "sm"
+            ],
+            "queue": [
+                "que",
+                "ue"
+            ],
+            "rhythm": [
+                "rhy",
+                "thm"
+            ]
+        }
+    },
+    "en-gb": {
+        "syllable_count": {
+            "hyphenation": 4,
+            "banana": 3,
+            "colour": 2,
+            "organisation": 5,
+            "aluminium": 5,
+            "strengths": 1
+        },
+        "split_word": {
+            "hyphenation": [
+                "hy",
+                "phen",
+                "a",
+                "tion"
+            ],
+            "banana": [
+                "ba",
+                "nana"
+            ],
+            "colour": [
+                "col",
+                "our"
+            ],
+            "organisation": [
+                "or",
+                "gan",
+                "isa",
+                "tion"
+            ],
+            "aluminium": [
+                "alu",
+                "mini",
+                "um"
+            ],
+            "strengths": [
+                "strengths"
+            ]
+        },
+        "split_syllables": {
+            "hyphenation": [
+                "hyp",
+                "hen",
+                "ati",
+                "on"
+            ],
+            "banana": [
+                "ba",
+                "na",
+                "na"
+            ],
+            "colour": [
+                "col",
+                "our"
+            ],
+            "organisation": [
+                "org",
+                "ani",
+                "sa",
+                "ti",
+                "on"
+            ],
+            "aluminium": [
+                "al",
+                "um",
+                "in",
+                "iu",
+                "m"
+            ],
+            "strengths": [
+                "strengths"
+            ]
+        }
+    },
+    "ru": {
+        "syllable_count": {
+            "дыхание": 4,
+            "беззвучная": 4,
+            "молоко": 3,
+            "красивый": 3,
+            "привет": 2,
+            "программирование": 7,
+            "я": 1
+        },
+        "split_word": {
+            "дыхание": [
+                "ды",
+                "ха",
+                "ние"
+            ],
+            "беззвучная": [
+                "без",
+                "звуч",
+                "ная"
+            ],
+            "молоко": [
+                "мо",
+                "ло",
+                "ко"
+            ],
+            "красивый": [
+                "кра",
+                "си",
+                "вый"
+            ],
+            "привет": [
+                "при",
+                "вет"
+            ],
+            "программирование": [
+                "про",
+                "грам",
+                "ми",
+                "ро",
+                "ва",
+                "ние"
+            ],
+            "я": [
+                "я"
+            ]
+        },
+        "split_syllables": {
+            "дыхание": [
+                "ды",
+                "ха",
+                "ни",
+                "е"
+            ],
+            "беззвучная": [
+                "без",
+                "зву",
+                "чн",
+                "ая"
+            ],
+            "молоко": [
+                "мо",
+                "ло",
+                "ко"
+            ],
+            "красивый": [
+                "кра",
+                "сив",
+                "ый"
+            ],
+            "привет": [
+                "при",
+                "вет"
+            ],
+            "программирование": [
+                "про",
+                "гра",
+                "мм",
+                "ир",
+                "ов",
+                "ан",
+                "ие"
+            ],
+            "я": [
+                "я"
+            ]
+        }
+    },
+    "uk": {
+        "syllable_count": {
+            "дихання": 3,
+            "молоко": 3,
+            "привіт": 2,
+            "українська": 4
+        },
+        "split_word": {
+            "дихання": [
+                "ди",
+                "ха",
+                "н",
+                "ня"
+            ],
+            "молоко": [
+                "мо",
+                "ло",
+                "ко"
+            ],
+            "привіт": [
+                "при",
+                "віт"
+            ],
+            "українська": [
+                "укра",
+                "їн",
+                "ська"
+            ]
+        },
+        "split_syllables": {
+            "дихання": [
+                "дих",
+                "ан",
+                "ня"
+            ],
+            "молоко": [
+                "мо",
+                "ло",
+                "ко"
+            ],
+            "привіт": [
+                "при",
+                "віт"
+            ],
+            "українська": [
+                "укр",
+                "аїн",
+                "сь",
+                "ка"
+            ]
+        }
+    },
+    "be": {
+        "syllable_count": {
+            "малако": 3,
+            "прывітанне": 4
+        },
+        "split_word": {
+            "малако": [
+                "ма",
+                "ла",
+                "ко"
+            ],
+            "прывітанне": [
+                "пры",
+                "ві",
+                "та",
+                "н",
+                "не"
+            ]
+        },
+        "split_syllables": {
+            "малако": [
+                "ма",
+                "ла",
+                "ко"
+            ],
+            "прывітанне": [
+                "пры",
+                "віт",
+                "ан",
+                "не"
+            ]
+        }
+    },
+    "bg": {
+        "syllable_count": {
+            "мляко": 2,
+            "здравей": 2
+        },
+        "split_word": {
+            "мляко": [
+                "мля",
+                "ко"
+            ],
+            "здравей": [
+                "здра",
+                "вей"
+            ]
+        },
+        "split_syllables": {
+            "мляко": [
+                "мля",
+                "ко"
+            ],
+            "здравей": [
+                "здра",
+                "вей"
+            ]
+        }
+    },
+    "de-1996": {
+        "syllable_count": {
+            "Verständlichkeit": 4,
+            "Schreiben": 2,
+            "Deutsch": 1,
+            "Wahrscheinlichkeit": 4,
+            "Donaudampfschifffahrt": 5
+        },
+        "split_word": {
+            "Verständlichkeit": [
+                "Ver",
+                "ständ",
+                "lich",
+                "keit"
+            ],
+            "Schreiben": [
+                "Schrei",
+                "ben"
+            ],
+            "Deutsch": [
+                "Deutsch"
+            ],
+            "Wahrscheinlichkeit": [
+                "Wahr",
+                "schein",
+                "lich",
+                "keit"
+            ],
+            "Donaudampfschifffahrt": [
+                "Do",
+                "nau",
+                "dampf",
+                "schiff",
+                "fahrt"
+            ]
+        },
+        "split_syllables": {
+            "Verständlichkeit": [
+                "Ver",
+                "ständ",
+                "lich",
+                "keit"
+            ],
+            "Schreiben": [
+                "Schrei",
+                "ben"
+            ],
+            "Deutsch": [
+                "Deutsch"
+            ],
+            "Wahrscheinlichkeit": [
+                "Wahr",
+                "schein",
+                "lich",
+                "keit"
+            ],
+            "Donaudampfschifffahrt": [
+                "Do",
+                "nau",
+                "dampf",
+                "schiff",
+                "fahrt"
+            ]
+        }
+    },
+    "es": {
+        "syllable_count": {
+            "hola": 2,
+            "comunicación": 5,
+            "extraordinario": 6,
+            "murciélago": 4
+        },
+        "split_word": {
+            "hola": [
+                "ho",
+                "la"
+            ],
+            "comunicación": [
+                "co",
+                "mu",
+                "ni",
+                "ca",
+                "ción"
+            ],
+            "extraordinario": [
+                "ex",
+                "tra",
+                "or",
+                "di",
+                "na",
+                "rio"
+            ],
+            "murciélago": [
+                "mur",
+                "cié",
+                "la",
+                "go"
+            ]
+        },
+        "split_syllables": {
+            "hola": [
+                "ho",
+                "la"
+            ],
+            "comunicación": [
+                "co",
+                "mu",
+                "ni",
+                "ca",
+                "ción"
+            ],
+            "extraordinario": [
+                "ex",
+                "tra",
+                "or",
+                "di",
+                "na",
+                "rio"
+            ],
+            "murciélago": [
+                "mur",
+                "cié",
+                "la",
+                "go"
+            ]
+        }
+    },
+    "it": {
+        "syllable_count": {
+            "ciao": 1,
+            "comunicazione": 6,
+            "straordinario": 4
+        },
+        "split_word": {
+            "ciao": [
+                "ciao"
+            ],
+            "comunicazione": [
+                "co",
+                "mu",
+                "ni",
+                "ca",
+                "zio",
+                "ne"
+            ],
+            "straordinario": [
+                "straor",
+                "di",
+                "na",
+                "rio"
+            ]
+        },
+        "split_syllables": {
+            "ciao": [
+                "ciao"
+            ],
+            "comunicazione": [
+                "co",
+                "mu",
+                "ni",
+                "ca",
+                "zio",
+                "ne"
+            ],
+            "straordinario": [
+                "straor",
+                "di",
+                "na",
+                "rio"
+            ]
+        }
+    },
+    "fr": {
+        "syllable_count": {
+            "bonjour": 2,
+            "communication": 5,
+            "extraordinaire": 6
+        },
+        "split_word": {
+            "bonjour": [
+                "bon",
+                "jour"
+            ],
+            "communication": [
+                "com",
+                "mu",
+                "ni",
+                "ca",
+                "tion"
+            ],
+            "extraordinaire": [
+                "ex",
+                "tr",
+                "a",
+                "or",
+                "di",
+                "naire"
+            ]
+        },
+        "split_syllables": {
+            "bonjour": [
+                "bon",
+                "jour"
+            ],
+            "communication": [
+                "com",
+                "mu",
+                "ni",
+                "ca",
+                "tion"
+            ],
+            "extraordinaire": [
+                "ex",
+                "tr",
+                "a",
+                "or",
+                "di",
+                "naire"
+            ]
+        }
+    },
+    "pl": {
+        "syllable_count": {
+            "dzień": 1,
+            "komunikacja": 5,
+            "nadzwyczajny": 4
+        },
+        "split_word": {
+            "dzień": [
+                "dzień"
+            ],
+            "komunikacja": [
+                "ko",
+                "mu",
+                "ni",
+                "ka",
+                "cja"
+            ],
+            "nadzwyczajny": [
+                "nad",
+                "zwy",
+                "czaj",
+                "ny"
+            ]
+        },
+        "split_syllables": {
+            "dzień": [
+                "dzień"
+            ],
+            "komunikacja": [
+                "ko",
+                "mu",
+                "ni",
+                "ka",
+                "cja"
+            ],
+            "nadzwyczajny": [
+                "nad",
+                "zwy",
+                "czaj",
+                "ny"
+            ]
+        }
+    },
+    "nl": {
+        "syllable_count": {
+            "hallo": 2,
+            "communicatie": 5
+        },
+        "split_word": {
+            "hallo": [
+                "hal",
+                "lo"
+            ],
+            "communicatie": [
+                "com",
+                "mu",
+                "ni",
+                "ca",
+                "tie"
+            ]
+        },
+        "split_syllables": {
+            "hallo": [
+                "hal",
+                "lo"
+            ],
+            "communicatie": [
+                "com",
+                "mu",
+                "ni",
+                "ca",
+                "tie"
+            ]
+        }
+    },
+    "pt": {
+        "syllable_count": {
+            "olá": 1,
+            "comunicação": 5
+        },
+        "split_word": {
+            "olá": [
+                "olá"
+            ],
+            "comunicação": [
+                "co",
+                "mu",
+                "ni",
+                "ca",
+                "ção"
+            ]
+        },
+        "split_syllables": {
+            "olá": [
+                "olá"
+            ],
+            "comunicação": [
+                "co",
+                "mu",
+                "ni",
+                "ca",
+                "ção"
+            ]
+        }
+    },
+    "tr": {
+        "syllable_count": {
+            "merhaba": 3,
+            "olağanüstü": 4
+        },
+        "split_word": {
+            "merhaba": [
+                "mer",
+                "ha",
+                "ba"
+            ],
+            "olağanüstü": [
+                "ola",
+                "ğa",
+                "nüs",
+                "tü"
+            ]
+        },
+        "split_syllables": {
+            "merhaba": [
+                "mer",
+                "ha",
+                "ba"
+            ],
+            "olağanüstü": [
+                "ola",
+                "ğa",
+                "nüs",
+                "tü"
+            ]
+        }
+    },
+    "ar": {
+        "syllable_count": {
+            "مرحبا": 1,
+            "اللغة": 1
+        },
+        "split_word": {
+            "مرحبا": [
+                "مرحبا"
+            ],
+            "اللغة": [
+                "اللغة"
+            ]
+        },
+        "split_syllables": {
+            "مرحبا": [
+                "مرحبا"
+            ],
+            "اللغة": [
+                "اللغة"
+            ]
+        }
+    },
+    "cs": {
+        "syllable_count": {
+            "strč": 1,
+            "prst": 1,
+            "komunikace": 4
+        },
+        "split_word": {
+            "strč": [
+                "strč"
+            ],
+            "prst": [
+                "prst"
+            ],
+            "komunikace": [
+                "ko",
+                "mu",
+                "ni",
+                "kace"
+            ]
+        },
+        "split_syllables": {
+            "strč": [
+                "strč"
+            ],
+            "prst": [
+                "prst"
+            ],
+            "komunikace": [
+                "ko",
+                "mu",
+                "ni",
+                "kace"
+            ]
+        }
+    },
+    "la": {
+        "syllable_count": {
+            "aqua": 1,
+            "communicatio": 5
+        },
+        "split_word": {
+            "aqua": [
+                "aqua"
+            ],
+            "communicatio": [
+                "com",
+                "mu",
+                "ni",
+                "ca",
+                "tio"
+            ]
+        },
+        "split_syllables": {
+            "aqua": [
+                "aqua"
+            ],
+            "communicatio": [
+                "com",
+                "mu",
+                "ni",
+                "ca",
+                "tio"
+            ]
+        }
+    },
+    "hu": {
+        "syllable_count": {
+            "kcommunikáció": 5,
+            "szó": 1
+        },
+        "split_word": {
+            "kcommunikáció": [
+                "kcom",
+                "mu",
+                "ni",
+                "ká",
+                "ció"
+            ],
+            "szó": [
+                "szó"
+            ]
+        },
+        "split_syllables": {
+            "kcommunikáció": [
+                "kcom",
+                "mu",
+                "ni",
+                "ká",
+                "ció"
+            ],
+            "szó": [
+                "szó"
+            ]
+        }
+    },
+    "fi": {
+        "syllable_count": {
+            "kcommunikaatio": 5,
+            "sana": 2
+        },
+        "split_word": {
+            "kcommunikaatio": [
+                "kcom",
+                "mu",
+                "ni",
+                "kaa",
+                "tio"
+            ],
+            "sana": [
+                "sa",
+                "na"
+            ]
+        },
+        "split_syllables": {
+            "kcommunikaatio": [
+                "kcom",
+                "mu",
+                "ni",
+                "kaa",
+                "tio"
+            ],
+            "sana": [
+                "sa",
+                "na"
+            ]
+        }
+    },
+    "sv": {
+        "syllable_count": {
+            "kommunikation": 5,
+            "ord": 1
+        },
+        "split_word": {
+            "kommunikation": [
+                "kom",
+                "mu",
+                "ni",
+                "ka",
+                "tion"
+            ],
+            "ord": [
+                "ord"
+            ]
+        },
+        "split_syllables": {
+            "kommunikation": [
+                "kom",
+                "mu",
+                "ni",
+                "ka",
+                "tion"
+            ],
+            "ord": [
+                "ord"
+            ]
+        }
+    }
+}

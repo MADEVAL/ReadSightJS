@@ -1,0 +1,18 @@
+# Temp working directory (source repos, scratch)
+temp/
+
+# Node
+node_modules/
+dist/
+build/
+coverage/
+*.log
+npm-debug.log*
+.npm/
+.eslintcache
+
+# Env / editor
+.env
+.env.*
+.DS_Store
+*.tsbuildinfo

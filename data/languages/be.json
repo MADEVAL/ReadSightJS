@@ -1,0 +1,36 @@
+{
+    "code": "be",
+    "name": "Belarusian",
+    "nativeName": "Беларуская",
+    "script": "Cyrillic",
+    "hyphenMins": {
+        "left": 2,
+        "right": 2
+    },
+    "letterPattern": "[А-Яа-яЁёҐ-ӿЀ-ӿ]",
+    "wordSplitPattern": "[^\\p{L}'’-]+",
+    "sentenceBoundaryPattern": "[.!?…]+",
+    "syllableMode": "heuristic",
+    "syllableHeuristics": {
+        "vowelPattern": "[аеёіоуыэюя]",
+        "vowelMode": "individual"
+    },
+    "formulas": {
+        "gunning_fog": {
+            "enabled": true
+        },
+        "smog": {
+            "enabled": true
+        },
+        "coleman_liau": {
+            "enabled": true
+        },
+        "ari": {
+            "enabled": true
+        },
+        "lix": {
+            "enabled": true,
+            "longWordThreshold": 6
+        }
+    }
+}
