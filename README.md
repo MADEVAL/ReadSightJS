@@ -373,12 +373,24 @@ npm run test:coverage  # coverage report (100% enforced)
 npm run typecheck      # tsc --noEmit
 npm run lint           # eslint
 npm run check          # lint + typecheck + tests
+npm run verify:parity  # re-derive golden vectors from the PHP reference (needs PHP)
 ```
 
 Parity with the PHP reference is verified by golden vectors in
 [`tests/golden`](tests/golden): the supported-formula lists, `analyze` metrics,
 every applicable formula (with `inputs`), and per-word syllable vectors, checked
 across all 86 languages with a `1e-9` tolerance.
+
+Those vectors are produced by the canonical PHP library, and
+[`tools/verify-parity.php`](tools/verify-parity.php) re-derives every value
+directly from the PHP reference to prove they have not drifted. The
+[Parity workflow](.github/workflows/parity.yml) runs this check in CI against a
+fresh checkout of [`MADEVAL/ReadSight`](https://github.com/MADEVAL/ReadSight).
+To run it locally, point `READSIGHT_PHP_DIR` at a clone of the PHP repo:
+
+```bash
+READSIGHT_PHP_DIR=/path/to/ReadSight npm run verify:parity
+```
 
 ## License
 

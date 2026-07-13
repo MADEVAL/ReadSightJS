@@ -1,0 +1,39 @@
+name: Parity
+
+on:
+  push:
+    branches: [main, master, develop]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: parity-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  parity:
+    name: Golden vectors vs. PHP reference
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.3"
+          extensions: mbstring, json
+
+      - name: Checkout PHP reference (canonical ReadSight)
+        uses: actions/checkout@v4
+        with:
+          repository: MADEVAL/ReadSight
+          path: .php-reference
+
+      - name: Verify golden vectors against PHP reference
+        run: php tools/verify-parity.php
+        env:
+          READSIGHT_PHP_DIR: ${{ github.workspace }}/.php-reference

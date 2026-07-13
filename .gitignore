@@ -1,6 +1,9 @@
 # Temp working directory (source repos, scratch)
 temp/
 
+# PHP reference checkout used by the parity workflow / verify:parity
+.php-reference/
+
 # Node
 node_modules/
 dist/
