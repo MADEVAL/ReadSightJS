@@ -1,8 +1,11 @@
 {
-  "name": "readsight",
+  "name": "@globus.studio/readsight",
   "version": "1.0.0",
   "description": "Multilingual readability library — 86 languages, 17 formulas, TeX-based syllable counting via the Frank M. Liang algorithm. Zero runtime dependencies.",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",

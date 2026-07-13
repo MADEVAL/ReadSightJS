@@ -1,14 +1,14 @@
 # ReadSight (Node.js) — Multilingual Readability Engine
 
 [![CI](https://github.com/MADEVAL/ReadSightJS/actions/workflows/ci.yml/badge.svg)](https://github.com/MADEVAL/ReadSightJS/actions/workflows/ci.yml)
-[![npm](https://img.shields.io/npm/v/readsight.svg)](https://www.npmjs.com/package/readsight)
+[![npm](https://img.shields.io/npm/v/@globus.studio/readsight.svg)](https://www.npmjs.com/package/@globus.studio/readsight)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D18-339933?logo=node.js)](https://nodejs.org/)
 [![Languages](https://img.shields.io/badge/languages-86-9cf)](#supported-languages)
 [![Formulas](https://img.shields.io/badge/formulas-17-orange)](#readability-formulas)
 [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](#development)
 
-`readsight` measures text readability across **86 languages**. It implements
+`@globus.studio/readsight` measures text readability across **86 languages**. It implements
 **17 readability formulas** with language-specific coefficients and uses the
 Frank M. Liang (TeX) hyphenation algorithm for syllable counting — all with
 **zero runtime dependencies**. It ships as a dual **ESM + CommonJS** package
@@ -38,7 +38,7 @@ There is no "score everything" call — you loop over the formulas the language
 supports and call `score()` for each:
 
 ```ts
-import { ReadSight } from "readsight";
+import { ReadSight } from "@globus.studio/readsight";
 
 const rs = new ReadSight("en-us");
 
@@ -94,7 +94,7 @@ lands on a Thai sentence by mistake.
 ## Installation
 
 ```bash
-npm install readsight
+npm install @globus.studio/readsight
 ```
 
 **Requirements:** Node.js >= 18. No other runtime dependencies.
@@ -103,18 +103,18 @@ Works from both ESM and CommonJS:
 
 ```ts
 // ESM
-import { ReadSight } from "readsight";
+import { ReadSight } from "@globus.studio/readsight";
 ```
 
 ```js
 // CommonJS
-const { ReadSight } = require("readsight");
+const { ReadSight } = require("@globus.studio/readsight");
 ```
 
 ## Quick Start
 
 ```ts
-import { ReadSight } from "readsight";
+import { ReadSight } from "@globus.studio/readsight";
 
 const engine = new ReadSight("en-us");
 
@@ -167,7 +167,7 @@ ReadSight has three syllable counting modes, configured per language via
 | `"individual"` | Each vowel letter = 1 syllable (Slavic Cyrillic) | `дыхание` → 4 |
 
 ```ts
-import { ReadSight } from "readsight";
+import { ReadSight } from "@globus.studio/readsight";
 
 const ru = new ReadSight("ru"); // heuristic + vowelMode "individual"
 ru.syllableCount("дыхание"); // 4
@@ -318,7 +318,7 @@ ReadSight.withConfig(language: string, config: Config): ReadSight
 ## Custom Configuration
 
 ```ts
-import { Config, ReadSight } from "readsight";
+import { Config, ReadSight } from "@globus.studio/readsight";
 
 // Global default (call once at bootstrap, before creating engines)
 ReadSight.setDefaultConfig(new Config("/patterns", "/languages", "/cache"));
